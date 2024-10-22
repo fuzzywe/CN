@@ -3,11 +3,58 @@ Computer Networks involve connecting computers to share information. It’s like
 
 What is meant by NOS?
 What is Proxy Server?
+
 What is the SMTP protocol?
+
 What are Firewalls?
+
 What are the various types of nodes?
+
 What’s the difference between Bluetooth and wifi?
+
 What is Bridge in Computer Network ?
 What is VPN?
+
 What’s the difference between Authentication and Authorization?
+
 What is IP Spoofing?
+
+what is TCP and UDP. differentiate. In which layer these protocols works. Why TCP is more reliable. Draw the 3 way handshaking model of TCP. If if UDP is not reliable , why we are using it .
+
+2. what is IPV4 and IPV6. Differentiate. Which one is better and why. Can u tell something about the header format of both.
+
+3.what is multicasting and broadcasting . give example
+
+4.exaplin the working of each level of OSI model by mentioning 1-2 protocols .
+
+5. differentiate between switch , router , hub . can u tell in which layer it works .
+
+6. give example of some protocols .( I exaplined 5-6 like , HTTP, HTTPS, FTP, ICMP, DHCP,SMTP).
+
+7. explain ICMP protocol.
+
+8.differentiate between HTTP and HTTPS. And explain how https is more secure .
+
+What protocol is used by ftp
+
+Osi architecture  tcp and udp
+
+Discussion on how clouds work and load balancing.
+
+what are different type of format
+how do you copy the content of 120 TB to a 32 TB hard drive laptop
+
+two devices are connected via switch one is wireless and another wired. will data transfer if yes how, if no why?
+
+if the device is not in n/w then one device sends data to that device via a switch, what happens to data?
+what are drivers
+What is registry
+
+questions from the processor (latest one), What you are using + specialty of that
+TCP/IP protocol
+
+how content is copied from disk to memory?
+
+What are the precautions to consider while installing a new software on a new server? Check whether server is correct or not first and then start installation process
+
+How would you test a black box using new test cases, given results for old test cases?
