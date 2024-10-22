@@ -1,0 +1,213 @@
+[9/25, 11:11 PM] Ruthika: What is IP Spoofing?
+IP Spoofing is essentially a technique used by hackers to gain unauthorized access to Computers.
+[9/25, 11:11 PM] Ruthika: 27. What is VPN?
+VPN stands for the virtual private network. A virtual private network (VPN) is a technology that creates a safe and encrypted connection over a less secure network, such as the Interne
+[9/25, 11:12 PM] Ruthika: What is Denormalization?
+Denormalization is a database optimization technique in which we add redundant data to one or more tables.
+[9/25, 11:15 PM] Ruthika: 35: What are firewalls in Computer Networks?
+A firewall is a network security device, either hardware or software-based, which monitors all incoming and outgoing traffic and based on a defined set of security rules, accepts, rejects, or drops that specific traffic.
+[9/25, 11:32 PM] Ruthika: What are in hot topics in Technical World ?
+[9/27, 1:50 PM] Ruthika: why tcp is connection oriented ?
+[9/27, 1:50 PM] Ruthika: Connection orientation means that the communicating devices should establish a connection before transmitting data and should close the connection after transmitting the data.
+[9/27, 1:50 PM] Ruthika: If UDP is not reliable, why do we use it?"
+
+Candidate: "UDP is used in applications requiring low latency and minimal overhead, such as video streaming (e.g., YouTube Live), online gaming (e.g., Fortnite), VoIP (e.g., Skype), DNS (e.g., domain name lookups), and live broadcasts (e.g., Twitch).
+[9/27, 1:50 PM] Ruthika: tcp  connection is a bytestream, and udp  is a message stream
+[9/27, 1:50 PM] Ruthika: How are resources typically identified in a RESTful API?
+
+    Using URIs (Uniform Resource Identifiers).
+[9/27, 1:50 PM] Ruthika: What does it mean for an API to be stateless?
+
+    Each request from the client to the server must contain all the information needed to understand and process the request.
+[9/27, 1:50 PM] Ruthika: What are the common status codes used in RESTful APIs?
+
+    200 (OK), 201 (Created), 204 (No Content), 400 (Bad Request), 401 (Unauthorized), 404 (Not Found), 500 (Internal Server Error).
+[9/27, 1:51 PM] Janani: Define network 
+What do you mean by network topology, and explain types of them 
+Define bandwidth, node and link ? 
+Explain TCP model .. 
+Layers of OSI model 
+Significance of Data Link Layer
+Define gateway, difference between gateway and router .. 
+What does ping command do ? 
+What is DNS, DNS forwarder, NIC, ? 
+What is MAC address ? 
+What is IP address, private IP address, public IP address, APIPA ? 
+Difference between IPv4 and IPv6
+What is subnet ? 
+Firewalls 
+Different type of delays 
+3 way handshaking 
+Server-side load balancer
+RSA Algorithm 
+What is HTTP and HTTPS protocol ? 
+What is SMTP protocol ? 
+TCP and UDP protocol, prepare differences
+What happens when you enter “google.com” (very very famous question) 
+Hub vs Switch 
+VPN, advantages and disadvantages of it 
+LAN
+[9/27, 1:54 PM] Janani: RSA Algorithm 
+RSA algorithm is an asymmetric cryptography algorithm. Asymmetric actually means that it works on two different keys i.e. Public Key and Private Key. As the name describes, the Public Key is given to everyone and the Private key is kept private.
+
+An example of asymmetric cryptography : A client (for example browser) sends its public key to the server and requests for some data. The server encrypts the data using the client's public key and sends the encrypted data. Client receives this data and decrypts it. Since this is asymmetric, nobody else except the browser can decrypt the data even if a third party has the public key of the browser.
+
+What is HTTP and HTTPS protocol ? 
+HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on how the information can be transmitted on the World Wide Web (WWW). It helps the web browsers and web servers for communication. It is a ‘stateless protocol’ where each command is independent with respect to the previous command. HTTP is an application layer protocol built upon the TCP. It uses port 80 by default. HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. It is an advanced and a secured version of HTTP. On top of HTTP, SSL/TLS protocol is used to provide security. It enables secure transactions by encrypting the communication and also helps identify network servers securely. It uses port 443 by default.
+
+What is SMTP protocol ? 
+SMTP is the Simple Mail Transfer Protocol. SMTP sets the rule for communication between servers. This set of rules helps the software to transmit emails over the internet. It supports both End-to-End and Store-and-Forward methods. It is in always-listening mode on port 25.
+
+TCP and UDP protocol, prepare differences
+TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol. A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP. Overall, UDP is a much faster, simpler, and
+efficient protocol, however, retransmission of lost data packets is only possible with TCP.
+
+TCP provides extensive error checking mechanisms. It is because it provides flow control and acknowledgment of data. UDP has only the basic error checking mechanism using checksums.
+
+What happens when you enter “google.com” (very very famous question) 
+Check the browser cache first if the content is fresh and present in the cache display the same.
+If not, the browser checks if the IP of the URL is present in the cache (browser and OS) if not then requests the OS to do a DNS lookup using UDP to get the corresponding IP address of the URL from the DNS server to establish a new TCP connection.
+A new TCP connection is set between the browser and the server using three-way handshaking.
+An HTTP request is sent to the server using the TCP connection.
+The web servers running on the Servers handle the incoming HTTP request and send the HTTP response.
+The browser processes the HTTP response sent by the server and may close the TCP connection or reuse the same for future requests.
+If the response data is cacheable then browsers cache the same.
+Browser decodes the response and renders the content.
+Hub vs Switch 
+Hub: Hub is a networking device which is used to transmit the signal to each port
+(except one port) to respond from which the signal was received. Hub is operated on a Physical layer. In this packet filtering is not available. It is of two types: Active Hub, Passive Hub.
+
+Switch: Switch is a network device which is used to enable the connection
+establishment and connection termination on the basis of need. Switch is operated on the Data link layer. In this packet filtering is available. It is a type of full duplex
+transmission mode and it is also called an efficient bridge
+
+VPN, advantages and disadvantages of it 
+VPN (Virtual Private Network) : VPN or the Virtual Private Network is a private WAN
+(Wide Area Network) built on the internet. It allows the creation of a secured tunnel
+(protected network) between different networks using the internet (public network). By using the VPN, a client can connect to the organisation’s network remotely.
+
+Advantages of VPN :
+1. VPN is used to connect offices in different geographical locations remotely and is
+cheaper when compared to WAN connections.
+2. VPN is used for secure transactions and confidential data transfer between
+multiple offices located in different geographical locations.
+3. VPN keeps an organisation’s information secured against any potential threats or
+intrusions by using virtualization.
+4. VPN encrypts the internet traffic and disguises the online identity
+
+Disadvantages of VPN :
+1. Not designed for continuous use
+2. Complexity prevents scalability
+3. Lack of granular security
+4. Unpredictable performance
+5. Unreliable availability
+
+LAN
+A local area network (LAN) is a collection of devices connected together in one physical location, such as a building, office, or home. A LAN can be small or large, ranging from a home network with one user to an enterprise network with thousands of users and devices in an office or school.
+[9/27, 2:38 PM] Ruthika: A network is a group of interconnected devices that communicate and share data through physical or wireless connections, allowing for resource sharing and collaboration.
+[9/28, 8:12 AM] Ruthika: how can we identify that someone has hacked/unauthorized accessed our system, and what common tools are used in cybersecurity.
+[9/28, 8:14 AM] Ruthika: What are TCP and UDP?
+What is Mac Address and IP Address?
+Does your mobile phone have a mac address?
+What is authentication and authorization?
+What’s the subnet mask of class C?
+[9/28, 8:16 AM] Ruthika: What types of Cyber attacks you know?(I told Sql Injection, he then replied yes it’s correct also told me some examples like Malware, Fishing etc)
+[9/28, 8:17 AM] Ruthika: 7) What is cloud computing?
+8) Expalin models of Cloud Computing?
+9) What is a VPN?
+10) Tell me the layers of OSI layer?
+11) In which layer Router Operated?
+12) What is TCP and UDP. State a difference?
+13) What is Mac Address?
+14) In which port does Http operates?
+[9/28, 8:19 AM] Ruthika: 1. What is Cloud Computing.
+
+2. What is the difference between Private Cloud and Public Cloud.
+
+3. How to create servers in GCP.
+
+4. Why u had chosen GCP over other Cloud Technologies like AWS or Azure?
+[9/28, 8:24 AM] Ruthika: Which phase in SDLC does coding come in?
+[9/28, 8:27 AM] Ruthika: What are the 4 different layers of the TCP/IP Reference Model?
+[9/28, 8:33 AM] Ruthika: What is SDLC?
+[9/28, 8:39 AM] Ruthika: What is networking?
+What is HTTP and the difference between HTTPS and HTTP?
+What are the different methods for an HTTP request?
+Tell me a different type of HTTP response?
+What happens when we type the URL in the search box?
+[9/28, 8:40 AM] Ruthika: How server software know what kind of data is requesting?
+Type of PORT for different data?
+Different between Hashing and Encryption?
+What is the Rainbow Table?
+Difference between UDP and TCP connections?
+[9/28, 8:40 AM] Ruthika: Can HTTP be UDP Connections?
+[9/28, 8:42 AM] Ruthika: What happens when we type a URL in the browser?
+[9/28, 8:43 AM] Ruthika: How does the browser get to know which type of content is coming from the server?
+How does the browser get to know whether the connection is successful or not?
+Tell me the different types of status codes in the Http response header.
+How passwords are stored in the Database?
+Which is more secure Hashing or Encryption?
+Difference between Http and Https.
+Can the database be migrated? If yes explain the process.
+What is IAM in AWS?
+How we can make two services in AWS talk to each other?
+[9/28, 8:43 AM] Ruthika: How we can make two services in AWS talk to each other?
+[9/30, 11:13 AM] Janani: POP3 vs. IMAP vs. SMTP
+POP3, IMAP and SMTP are all email protocols. The three protocols differ in a variety of ways, including:
+POP3 and IMAP are protocols for retrieving emails from a server, while SMTP is for transmitting emails.
+POP3 downloads messages directly to your device. In comparison, IMAP retains the message on the server.
+POP3 frees up storage space on servers, but IMAP frees up space on local hard drives.
+While IMAP synchronizes email content across devices, POP3 keeps separate settings and email content on different devices.
+IMAP can be identically useful for multiple devices, while POP3 is more suitable for use on a single device because of its synchronization inability.
+POP3 retrieves only the emails within your inbox folder. In contrast, IMAP retrieves content from every folder in your email account.
+POP3 poses a greater risk of device infection as it downloads all inbox messages to the local device. Comparatively, IMAP allows you to control which emails and attachments you open
+POP3 misses an automatic backup system, meaning you can easily lose data. In contrast, IMAP allows you to re-retrieve any emails you haven't deleted
+[9/30, 11:17 AM] Janani: The transport layer is known as the "heart" of the Open Systems Interconnection (OSI) model because it performs many important functions, including: 
+ 
+Reliable data transfer
+The transport layer ensures that data packets arrive accurately and reliably between the sender and receiver. 
+ 
+Error checking
+The transport layer performs error checking to ensure that the transmission is free of errors. 
+ 
+Data segmentation
+The transport layer breaks data from the session layer into segments for the network layer. 
+ 
+Data reassembly
+The transport layer reassembles the segments from the network layer and passes them on to the session layer. 
+ 
+Flow control
+The transport layer avoids sending more data than can be reliably transmitted. 
+ 
+Addressing
+The transport layer communicates with the correct application on the computer. 
+ 
+Multiplexing
+The transport layer ensures that any number of applications can use any number of network connections. 
+ 
+The transport layer uses transmission protocols like the Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) to manage network traffic.
+[9/30, 11:37 AM] Janani: A unique difference between a router and a gateway lies in their handling of protocols:
+
+Router: A router forwards data within the same protocol (e.g., IPv4 to IPv4, IPv6 to IPv6). It decides the optimal path for data within networks using the same communication protocol.
+
+Gateway: A gateway converts data between different protocols. For instance, it can translate between IPv4 and IPv6, or even between entirely different systems like TCP/IP and telephony protocols.
+
+
+This protocol conversion capability is what sets gateways apart from routers in a unique way.
+[10/9, 3:23 PM] Janani: Do I need a modem and a router?
+A modem and router are both essential components of most home networks, especially for those who have a home office and work remotely. The modem is responsible for sending and receiving signals from the ISP, while the router disperses the signal to devices on the network.
+
+In a typical home network setup, the modem is connected to the router, which is then connected to each device on the network. The modem and router are essential in ensuring a stable and reliable connection. Without a modem, the router would not be able to connect to the internet, and without a router, devices on the network would not be able to communicate
+[10/19, 5:00 PM] Ruthika: What is CSMA protocol?
+
+Problem approach
+Carrier Sense Multiple Access (CSMA) is a network protocol for carriertransmission that operates in the Medium Access Control (MAC) layer. It senses or listens whether the shared channel for transmission is busy or not, and transmits if the channel is not busy. Using CMSA protocols, more than one users or nodes send and receive data through a shared medium that may be a single cable or optical fiber connecting multiple nodes, or a portion of the wireless spectrum.
+
+Working Principle
+When a station has frames to transmit, it attempts to detect presence of the carrier signal from the other nodes connected to the shared channel. If a carrier signal is detected, it implies that a transmission is in progress. The station waits till the ongoing transmission executes to completion, and then initiates its own transmission. Generally, transmissions by the node are received by all other nodes connected to the channel.
+Since, the nodes detect for a transmission before sending their own frames,collision of frames is reduced. However, if two nodes detect an idle channel at the same time, they may simultaneously initiate transmission. This would cause the frames to garble resulting in a collision.
+[10/21, 6:47 PM] Ruthika: Bandwidth is how much information you receive every second, while speed is how fast that information is received or downloaded
+[10/21, 6:49 PM] Ruthika: latency is the amount of time it takes that information to get from its source to you.
+[10/21, 6:50 PM] Ruthika: It's the lag you experience while waiting for something to load
+[10/21, 6:51 PM] Ruthika: Throughput is how much information actually gets delivered in a certain amount of time. So if bandwidth is the max amount of data, throughput is how much of that data makes it to its destination –
+[10/21, 7:48 PM] Ruthika: DNS Forwarder: A DNS forwarder is like a smart assistant in the network. When a computer doesn’t know the answer to a DNS query, the forwarder steps in, sending the request to another DNS server and then saving the answer for future requests. This speeds things up and takes the load off your local DNS server
